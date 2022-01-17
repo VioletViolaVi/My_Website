@@ -1,9 +1,9 @@
+import AboutMe from "./components/AboutMe";
+
 const Main = () => {
   return (
     <main>
-      <section>
-        <p>This is where the main goes</p>
-      </section>
+      <AboutMe />
     </main>
   );
 };
