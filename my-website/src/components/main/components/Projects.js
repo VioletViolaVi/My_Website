@@ -1,7 +1,16 @@
 const Projects = () => {
   return (
     <section>
-      <p>This is where the projects goes</p>
+      <figure>
+        <figcaption>#</figcaption>
+        <a href="#" target="_blank" rel="noreferrer">
+          <img src="#" alt="#" />
+        </a>
+      </figure>
+      <p>#</p>
+      <p>
+        <b>Technologies:</b> #
+      </p>
     </section>
   );
 };
