@@ -1,10 +1,8 @@
 const Footer = () => {
   return (
-    <footer>
-      <div>
-        <i className="fas fa-envelope"></i>
-        <i className="fab fa-github"></i>
-      </div>
+    <footer className="footer-bg">
+      <i className="fas fa-envelope"></i>
+      <i className="fab fa-github"></i>
     </footer>
   );
 };
