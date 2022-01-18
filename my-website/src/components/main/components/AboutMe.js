@@ -22,8 +22,8 @@ const AboutMe = () => {
       </p>
 
       <figure>
-        <img src={portrait} alt="Cartoon version of me." />
-        <figcaption>
+        <img src={portrait} alt="Cartoon version of me." className="avatar" />
+        <figcaption className="avatar-caption">
           Hello Again!{" "}
           <span>
             <i className="fas fa-hand-sparkles"></i>
