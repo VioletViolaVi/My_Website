@@ -20,6 +20,11 @@ const Main = () => {
   return (
     <main>
       <AboutMe />
+      <header>
+        <h2 className="projects-title" id="projects">
+          My Projects
+        </h2>
+      </header>
       {allProjects}
       <Skills />
     </main>

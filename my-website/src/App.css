@@ -62,7 +62,7 @@ ul {
   margin-top: 2rem;
 }
 
-.title {
+.about-me-title {
   font-size: 1.9rem;
 }
 
@@ -95,6 +95,9 @@ ul {
   align-items: center;
   padding: 4rem 0.5rem;
   text-align: center;
+}
+
+.projects-title {
 }
 
 .project-img {
@@ -130,6 +133,9 @@ ul {
   text-align: center;
   margin-top: 5rem;
   padding: 0 0.5rem;
+}
+
+.skills-title {
 }
 
 .skill-list-bg {

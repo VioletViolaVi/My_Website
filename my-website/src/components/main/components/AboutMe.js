@@ -4,7 +4,9 @@ const AboutMe = () => {
   return (
     <section className="about-me-container">
       <header>
-        <h1 className="title">Front End Developer</h1>
+        <h1 className="about-me-title" id="home">
+          Front End Developer
+        </h1>
       </header>
 
       <p className="greeting">

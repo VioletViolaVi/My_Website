@@ -11,7 +11,9 @@ const Projects = (props) => {
         </a>
         <figcaption className="project-caption">{props.customTitle}</figcaption>
       </figure>
+
       <p className="project-description">{props.customDescription}</p>
+
       <p className="project-tech">
         <b>Technologies:</b> {props.customTechnologies}
       </p>

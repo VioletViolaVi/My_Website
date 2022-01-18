@@ -3,12 +3,19 @@ import diploma from "./images/diploma.png";
 const Skills = () => {
   return (
     <section className="skills-bg">
+      <header>
+        <h2 className="skills-title" id="skills">
+          My Skills
+        </h2>
+      </header>
+
       <ul className="skill-list-bg">
         <li className="skill-list">HTML5 | CSS3 | SASS</li>
         <li className="skill-list">JavaScript | jQuery | React | Bootstrap</li>
         <li className="skill-list">Materialize | Balsamiq Wireframes | Git</li>
         <li className="skill-list">VS Code | Gitpod | GitHub</li>
       </ul>
+
       <figure>
         <img
           src={diploma}
