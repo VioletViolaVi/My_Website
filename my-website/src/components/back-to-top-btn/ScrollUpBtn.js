@@ -1,8 +1,8 @@
 const ScrollUpBtn = () => {
-  //Get the button:
-  let mybutton = document.getElementById("myBtn");
+  // get btn
+  let scrollUpBtn = document.getElementById("scrollUpBtn");
 
-  // When the user scrolls down 20px from the top of the document, show the button
+  // when user scrolls down 20px from top of document, show btn
   window.onscroll = function () {
     scrollFunction();
   };
@@ -12,21 +12,26 @@ const ScrollUpBtn = () => {
       document.body.scrollTop > 20 ||
       document.documentElement.scrollTop > 20
     ) {
-      mybutton.style.display = "block";
+      scrollUpBtn.style.display = "block";
     } else {
-      mybutton.style.display = "none";
+      scrollUpBtn.style.display = "none";
     }
   }
 
-  // When the user clicks on the button, scroll to the top of the document
+  // when user clicks btn, scroll to top of page
   function topFunction() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    document.body.scrollTop = 0; // for Safari
+    document.documentElement.scrollTop = 0; // for Chrome, Firefox, IE and Opera
   }
 
   return (
     <>
-      <button onClick={topFunction} id="myBtn" title="Go to top">
+      <button
+        onClick={topFunction}
+        id="scrollUpBtn"
+        title="Go to top"
+        className="scroll-up-btn"
+      >
         Top
       </button>
     </>
