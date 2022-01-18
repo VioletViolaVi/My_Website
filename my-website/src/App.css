@@ -6,6 +6,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   cursor: default;
   color: #20b2aa;
@@ -21,7 +22,7 @@ ul {
 }
 
 /*********************************************************** scroll up btn */
-.scroll-up-btn {
+#scrollUpBtn {
   display: none;
   position: fixed;
   bottom: 1rem;
@@ -32,14 +33,29 @@ ul {
   background-color: #20b2aa;
   color: #e0ffff;
   cursor: pointer;
-  padding: 1rem;
+  padding: 0.3rem 0.5rem;
   font-size: 1.5rem;
 }
 
-.scroll-up-btn:hover {
+#scrollUpBtn:hover {
   background-color: #e0ffff;
   color: #20b2aa;
   border: #20b2aa solid 0.3rem;
+}
+
+.fas.fa-chevron-up {
+  font-size: 1.5rem;
+}
+
+/*************************** media queries: header */
+@media (min-width: 800px) {
+  #scrollUpBtn {
+    padding: 1rem;
+  }
+
+  .fas.fa-chevron-up {
+    font-size: 2rem;
+  }
 }
 
 /*********************************************************** header */
@@ -156,6 +172,7 @@ ul {
 .project-img {
   width: 16rem;
   border: 1rem solid #20b2aa;
+  height: 17rem;
 }
 
 .project-img:hover {
@@ -186,6 +203,7 @@ ul {
 
   .project-img {
     width: 22rem;
+    height: 23rem;
   }
 
   .project-caption,

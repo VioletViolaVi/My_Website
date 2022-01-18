@@ -1,13 +1,14 @@
 const ScrollUpBtn = () => {
-  // get btn
+  // get btn via id
   let scrollUpBtn = document.getElementById("scrollUpBtn");
 
-  // when user scrolls down 20px from top of document, show btn
-  window.onscroll = function () {
-    scrollFunction();
+  // when 20px scrolled down from top of page, show btn
+  window.onscroll = () => {
+    showOrHideBtn();
   };
 
-  function scrollFunction() {
+  // show or hide btn if 20px from top of page
+  const showOrHideBtn = () => {
     if (
       document.body.scrollTop > 20 ||
       document.documentElement.scrollTop > 20
@@ -16,23 +17,17 @@ const ScrollUpBtn = () => {
     } else {
       scrollUpBtn.style.display = "none";
     }
-  }
+  };
 
-  // when user clicks btn, scroll to top of page
-  function topFunction() {
-    document.body.scrollTop = 0; // for Safari
-    document.documentElement.scrollTop = 0; // for Chrome, Firefox, IE and Opera
-  }
+  // scroll to top of page when btn's clicked
+  const backToTop = () => {
+    document.documentElement.scrollTop = 0;
+  };
 
   return (
     <>
-      <button
-        onClick={topFunction}
-        id="scrollUpBtn"
-        title="Go to top"
-        className="scroll-up-btn"
-      >
-        Top
+      <button onClick={backToTop} id="scrollUpBtn" title="Go to top">
+        <i className="fas fa-chevron-up"></i>
       </button>
     </>
   );
