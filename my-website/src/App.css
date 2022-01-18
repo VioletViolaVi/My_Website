@@ -7,6 +7,7 @@
 
 body {
   cursor: default;
+  color: #20b2aa;
 }
 
 a {
@@ -44,4 +45,34 @@ ul {
 
 /*********************************************************** about me */
 .about-me-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0.3rem;
+  text-align: center;
+}
+
+.about-me-container header,
+.about-me-container .greeting,
+.about-me-container .intro,
+.about-me-container .intro-para,
+.about-me-container figure {
+  margin-top: 2rem;
+}
+
+.title {
+  font-size: 1.9rem;
+}
+
+.greeting {
+  font-size: 2rem;
+}
+
+.fas.fa-hand-sparkles {
+  transform: rotate(20deg);
+}
+
+.intro,
+.intro-para {
+  font-size: 1.5rem;
 }
