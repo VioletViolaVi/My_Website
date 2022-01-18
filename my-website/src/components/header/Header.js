@@ -1,16 +1,22 @@
 const Header = () => {
   return (
-    <header>
+    <header className="header-bg">
       <nav>
-        <ul>
+        <ul className="list-container">
           <li>
-            <a href="#home">Home</a>
+            <a href="#home" className="link">
+              Home
+            </a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects" className="link">
+              Projects
+            </a>
           </li>
           <li>
-            <a href="#skills">Skills</a>
+            <a href="#skills" className="link">
+              Skills
+            </a>
           </li>
         </ul>
       </nav>

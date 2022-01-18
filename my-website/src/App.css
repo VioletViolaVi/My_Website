@@ -16,3 +16,32 @@ a {
 ul {
   list-style: none;
 }
+
+/*********************************************************** header */
+.header-bg {
+  background-color: #e0ffff;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 4rem;
+}
+
+.link {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #20b2aa;
+}
+
+.link:hover {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #87cefa;
+}
+
+/*********************************************************** about me */
+.about-me-container {
+}

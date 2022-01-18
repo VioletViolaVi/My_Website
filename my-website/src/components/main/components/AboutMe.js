@@ -2,7 +2,7 @@ import portrait from "./images/avatar.png";
 
 const AboutMe = () => {
   return (
-    <section>
+    <section className="about-me-container">
       <header>
         <h1>Front End Developer</h1>
       </header>
