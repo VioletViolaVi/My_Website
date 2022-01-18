@@ -1,17 +1,18 @@
 const Projects = (props) => {
   return (
-    <section>
+    <section className="projects-bg">
       <figure>
         <a href={props.customLink} target="_blank" rel="noreferrer">
           <img
             src={"./project-images/" + props.customImg}
             alt={props.customAlt}
+            className="project-img"
           />
         </a>
-        <figcaption>{props.customTitle}</figcaption>
+        <figcaption className="project-caption">{props.customTitle}</figcaption>
       </figure>
-      <p>{props.customDescription}</p>
-      <p>
+      <p className="project-description">{props.customDescription}</p>
+      <p className="project-tech">
         <b>Technologies:</b> {props.customTechnologies}
       </p>
     </section>

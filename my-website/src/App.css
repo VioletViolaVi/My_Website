@@ -85,3 +85,39 @@ ul {
   height: 11rem;
   border: solid 1rem #20b2aa;
 }
+
+/*********************************************************** projects */
+.projects-bg {
+  background-color: #e0ffff;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 0.5rem;
+  text-align: center;
+}
+
+.project-img {
+  width: 16rem;
+  border: 1rem solid #20b2aa;
+}
+
+.project-img:hover {
+  border-top: 1rem solid #e0ffff;
+  border-right: 1rem solid #e0ffff;
+}
+
+.project-caption,
+.project-description {
+  margin-bottom: 0.5rem;
+}
+
+.project-caption {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.project-description,
+.project-tech {
+  font-size: 1.2rem;
+}
