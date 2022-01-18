@@ -1,13 +1,15 @@
 /*********************************************************** custom defaults */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
 body {
   cursor: default;
   color: #20b2aa;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 a {
