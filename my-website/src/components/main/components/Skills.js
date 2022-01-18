@@ -2,16 +2,22 @@ import diploma from "./images/diploma.png";
 
 const Skills = () => {
   return (
-    <section>
-      <ul>
-        <li>HTML5 | CSS3 | SASS</li>
-        <li>JavaScript | jQuery | React | Bootstrap</li>
-        <li>Materialize | Balsamiq Wireframes | Git</li>
-        <li>VS Code | Gitpod | GitHub</li>
+    <section className="skills-bg">
+      <ul className="skill-list-bg">
+        <li className="skill-list">HTML5 | CSS3 | SASS</li>
+        <li className="skill-list">JavaScript | jQuery | React | Bootstrap</li>
+        <li className="skill-list">Materialize | Balsamiq Wireframes | Git</li>
+        <li className="skill-list">VS Code | Gitpod | GitHub</li>
       </ul>
       <figure>
-        <img src={diploma} alt="Software Development Diploma." />
-        <figcaption>My Software Development Diploma</figcaption>
+        <img
+          src={diploma}
+          alt="Software Development Diploma."
+          className="diploma-img"
+        />
+        <figcaption className="diploma-caption">
+          My Software Development Diploma
+        </figcaption>
       </figure>
     </section>
   );
