@@ -40,9 +40,14 @@ ul {
 }
 
 .link:hover {
-  font-size: 1.5rem;
-  font-weight: bold;
   color: #87cefa;
+}
+
+/*************************** media queries: header */
+@media (min-width: 800px) {
+  .link {
+    font-size: 2.5rem;
+  }
 }
 
 /*********************************************************** about me */
@@ -86,6 +91,28 @@ ul {
   border: solid 1rem #20b2aa;
 }
 
+/*************************** media queries: about me */
+@media (min-width: 800px) {
+  .about-me-title {
+    font-size: 2.5rem;
+  }
+
+  .greeting {
+    font-size: 2.5rem;
+  }
+
+  .intro,
+  .intro-para,
+  .avatar-caption {
+    font-size: 2rem;
+  }
+
+  .avatar {
+    width: 16rem;
+    height: 16rem;
+  }
+}
+
 /*********************************************************** projects */
 .projects-bg {
   background-color: #e0ffff;
@@ -127,6 +154,31 @@ ul {
   font-size: 1.2rem;
 }
 
+/*************************** media queries: projects */
+@media (min-width: 800px) {
+  .projects-title {
+    font-size: 2.3rem;
+  }
+
+  .project-img {
+    width: 22rem;
+  }
+
+  .project-caption,
+  .project-description {
+    margin-bottom: 1.5rem;
+  }
+
+  .project-caption {
+    font-size: 2rem;
+  }
+
+  .project-description,
+  .project-tech {
+    font-size: 1.5rem;
+  }
+}
+
 /*********************************************************** skills */
 .skills-bg {
   display: flex;
@@ -164,6 +216,30 @@ ul {
   margin-top: 0.5rem;
 }
 
+/*************************** media queries: skills */
+@media (min-width: 800px) {
+  .skill-list-bg {
+    line-height: 5rem;
+  }
+
+  .skills-title {
+    font-size: 2.3rem;
+  }
+
+  .skill-list {
+    font-size: 2.2rem;
+  }
+
+  .diploma-img {
+    width: 22rem;
+    height: 28rem;
+  }
+
+  .diploma-caption {
+    font-size: 2rem;
+  }
+}
+
 /*********************************************************** footer */
 .footer-bg {
   background-color: #e0ffff;
@@ -188,4 +264,12 @@ ul {
 .fab.fa-github {
   font-size: 2.5rem;
   cursor: pointer;
+}
+
+/*************************** media queries: footer */
+@media (min-width: 800px) {
+  .fas.fa-envelope,
+  .fab.fa-github {
+    font-size: 3.5rem;
+  }
 }
