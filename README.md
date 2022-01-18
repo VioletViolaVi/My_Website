@@ -15,4 +15,4 @@ I created this website using React, HTML5, CSS3 and JavaScript. It holds links t
 - [Git](https://git-scm.com/)
 - [GitHub](https://github.com/)
 
-This is an updated version of my previous website which can be found via [this](https://github.com/VioletViolaVi/My_Portfolio/edit/master/README.md) link.
+This is an updated version of my previous website. Its repository can be found via [this](https://github.com/VioletViolaVi/My_Portfolio) link.
