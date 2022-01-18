@@ -177,6 +177,13 @@ ul {
   border-bottom: solid 1rem #20b2aa;
 }
 
+.footer-link {
+  color: #20b2aa;
+}
+.footer-link :hover {
+  color: #87cefa;
+}
+
 .fas.fa-envelope,
 .fab.fa-github {
   font-size: 2.5rem;
