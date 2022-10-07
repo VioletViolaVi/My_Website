@@ -5,7 +5,7 @@ const AboutMe = () => {
     <section className="about-me-container">
       <header>
         <h1 className="about-me-title" id="home">
-          Front End Developer
+          Software Developer
         </h1>
       </header>
 
@@ -16,7 +16,7 @@ const AboutMe = () => {
         </span>
       </p>
 
-      <p className="intro">I'm a Front End Developer</p>
+      <p className="intro">I'm a Software Developer</p>
 
       <p className="intro-para">
         I write clean, maintainable and reusable code to create awesome user
