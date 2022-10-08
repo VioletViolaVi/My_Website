@@ -11,7 +11,7 @@ const Footer = () => {
       </a>
 
       <a
-        href="https://github.com/VioletViolaVi?tab=repositories"
+        href="https://github.com/VioletViolaVi"
         target="_blank"
         rel="noreferrer"
         className="footer-link"
