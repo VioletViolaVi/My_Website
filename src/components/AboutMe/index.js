@@ -1,4 +1,4 @@
-import portrait from "./images/avatar.png";
+import avatar from "../../assets/images/avatar.png";
 
 const AboutMe = () => {
   return (
@@ -24,7 +24,7 @@ const AboutMe = () => {
       </p>
 
       <figure>
-        <img src={portrait} alt="Cartoon version of me." className="avatar" />
+        <img src={avatar} alt="Cartoon version of me." className="avatar" />
         <figcaption className="avatar-caption">
           Hello Again!{" "}
           <span>

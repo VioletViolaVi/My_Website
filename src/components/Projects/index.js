@@ -4,7 +4,7 @@ const Projects = (props) => {
       <figure>
         <a href={props.customLink} target="_blank" rel="noreferrer">
           <img
-            src={"./project-images/" + props.customImg}
+            src={props.customImg}
             alt={props.customAlt}
             className="project-img"
           />

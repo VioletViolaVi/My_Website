@@ -1,9 +1,6 @@
-import AboutMe from "./components/AboutMe";
-import Data from "./components/data/Data";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import { AboutMe, Projects, Skills, Data } from "../../components/index";
 
-const Main = () => {
+const Home = () => {
   const allProjects = Data.map((singleDataObj) => {
     return (
       <Projects
@@ -17,6 +14,7 @@ const Main = () => {
       />
     );
   });
+
   return (
     <main>
       <AboutMe />
@@ -30,4 +28,4 @@ const Main = () => {
     </main>
   );
 };
-export default Main;
+export default Home;

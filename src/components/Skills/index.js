@@ -1,4 +1,4 @@
-import diploma from "./images/diploma.png";
+import diploma from "../../assets/images/diploma.png";
 
 const Skills = () => {
   return (
