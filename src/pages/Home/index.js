@@ -1,10 +1,10 @@
-import { AboutMe, Projects, Skills, Data } from "../../components/index";
+import { AboutMe, Projects, Skills, Data, ScrollUpBtn } from "../../components/index";
 
 const Home = () => {
   const allProjects = Data.map((singleDataObj) => {
     return (
       <Projects
-        customId={singleDataObj.id}
+        key={singleDataObj.id}
         customTitle={singleDataObj.title}
         customLink={singleDataObj.link}
         customImg={singleDataObj.image}
@@ -17,6 +17,7 @@ const Home = () => {
 
   return (
     <main>
+      <ScrollUpBtn />
       <AboutMe />
       <header>
         <h2 className="projects-title" id="projects">
