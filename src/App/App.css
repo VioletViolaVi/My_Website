@@ -22,7 +22,7 @@ ul {
 }
 
 /*********************************************************** scroll up btn */
-#scrollUpBtn {
+#btn {
   display: none;
   position: fixed;
   bottom: 1rem;
@@ -37,7 +37,7 @@ ul {
   font-size: 1.5rem;
 }
 
-#scrollUpBtn:hover {
+#btn:hover {
   background-color: #e0ffff;
   color: #20b2aa;
   border: #20b2aa solid 0.3rem;
@@ -47,10 +47,10 @@ ul {
   font-size: 1.5rem;
 }
 
-/*************************** media queries: header */
+/*************************** media queries: scroll up btn */
 @media (min-width: 800px) {
-  #scrollUpBtn {
-    padding: 1rem;
+  #btn {
+    padding: 0.5rem;
   }
 
   .fas.fa-chevron-up {
