@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import "./index.css";
 
 const NavBar = () => {
-  const activeLink = { color: "#f0f0f0" };
+  const activeLink = { color: "#008080" };
 
   function toggleActive({ isActive }) {
     if (isActive) {
@@ -15,20 +15,20 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className="header-bg">
+      <nav className="navbar-bg">
         <ul className="list-container">
           <li>
-            <NavLink className="link" to="my_website" style={toggleActive}>
+            <NavLink className="link" to="/my-website" style={toggleActive}>
               Home
             </NavLink>
           </li>
           <li>
-            <NavLink className="link" to="projects" style={toggleActive}>
+            <NavLink className="link" to="/projects" style={toggleActive}>
               Projects
             </NavLink>
           </li>
           <li>
-            <NavLink className="link" to="skills" style={toggleActive}>
+            <NavLink className="link" to="/skills" style={toggleActive}>
               Skills
             </NavLink>
           </li>

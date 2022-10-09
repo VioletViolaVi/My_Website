@@ -1,10 +1,13 @@
-import { AboutMe } from "../../components/index";
+import { AboutMe, Footer, NavBar, ScrollUpBtn } from "../../components/index";
 
 const Home = () => {
   return (
-    <main>
+    <>
+      <NavBar />
+      <ScrollUpBtn />
       <AboutMe />
-    </main>
+      <Footer />
+    </>
   );
 };
 export default Home;

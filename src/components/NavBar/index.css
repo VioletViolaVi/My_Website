@@ -1,5 +1,5 @@
 /*********************************************************** navbar */
-.header-bg {
+.navbar-bg {
   background-color: #e0ffff;
   border-top: solid 1rem #20b2aa;
   border-bottom: solid 1rem #20b2aa;
@@ -20,7 +20,7 @@
 }
 
 .link:hover {
-  color: #87cefa;
+  color: #5f9ea0;
 }
 
 /*************************** media queries: navbar */

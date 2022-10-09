@@ -3,37 +3,39 @@ import "./index.css";
 
 const AboutMe = () => {
   return (
-    <section className="about-me-container">
-      <header>
-        <h1 className="about-me-title" id="home">
-          Software Developer
-        </h1>
-      </header>
+    <main>
+      <section className="about-me-container">
+        <header>
+          <h1 className="about-me-title" id="home">
+            Software Developer
+          </h1>
+        </header>
 
-      <p className="greeting">
-        Hello!{" "}
-        <span>
-          <i className="fas fa-hand-sparkles"></i>
-        </span>
-      </p>
-
-      <p className="intro">I'm a Software Developer</p>
-
-      <p className="intro-para">
-        I write clean, maintainable and reusable code to create awesome user
-        interfaces
-      </p>
-
-      <figure>
-        <img src={avatar} alt="Cartoon version of me." className="avatar" />
-        <figcaption className="avatar-caption">
-          Hello Again!{" "}
+        <p className="greeting">
+          Hello!{" "}
           <span>
             <i className="fas fa-hand-sparkles"></i>
           </span>
-        </figcaption>
-      </figure>
-    </section>
+        </p>
+
+        <p className="intro">I'm a Software Developer</p>
+
+        <p className="intro-para">
+          I write clean, maintainable and reusable code to create awesome user
+          interfaces
+        </p>
+
+        <figure>
+          <img src={avatar} alt="Cartoon version of me." className="avatar" />
+          <figcaption className="avatar-caption">
+            Hello Again!{" "}
+            <span>
+              <i className="fas fa-hand-sparkles"></i>
+            </span>
+          </figcaption>
+        </figure>
+      </section>
+    </main>
   );
 };
 export default AboutMe;

@@ -1,10 +1,13 @@
-import { Skills } from "../../components/index";
+import { Footer, NavBar, ScrollUpBtn, Skills } from "../../components/index";
 
 const SkillsPage = () => {
   return (
-    <main>
+    <>
+      <NavBar />
+      <ScrollUpBtn />
       <Skills />
-    </main>
+      <Footer />
+    </>
   );
 };
 export default SkillsPage;

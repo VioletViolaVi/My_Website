@@ -4,15 +4,11 @@ import { BrowserRouter } from "react-router-dom";
 
 import reportWebVitals from "./reportWebVitals";
 import App from "./App/App";
-import { Footer, NavBar, ScrollUpBtn } from "./components";
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <ScrollUpBtn />
-      <NavBar />
       <App />
-      <Footer />
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
