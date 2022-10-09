@@ -1,4 +1,10 @@
-import { Data, Footer, NavBar, Projects, ScrollUpBtn } from "../../components/index";
+import {
+  Data,
+  Footer,
+  NavBar,
+  Projects,
+  ScrollUpBtn,
+} from "../../components/index";
 
 const ProjectsPage = () => {
   const allProjects = Data.map((singleDataObj) => {
@@ -18,13 +24,15 @@ const ProjectsPage = () => {
   return (
     <>
       <NavBar />
-      <ScrollUpBtn />
-      <header>
-        <h2 className="projects-title" id="projects">
-          My Projects
-        </h2>
-      </header>
-      {allProjects}
+      <main>
+        <ScrollUpBtn />
+        <header>
+          <h2 className="projects-title" id="projects">
+            My Projects
+          </h2>
+        </header>
+        {allProjects}
+      </main>
       <Footer />
     </>
   );

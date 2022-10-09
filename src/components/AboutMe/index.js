@@ -1,9 +1,11 @@
 import avatar from "../../assets/images/avatar.png";
+import { ScrollUpBtn } from "../index";
 import "./index.css";
 
 const AboutMe = () => {
   return (
     <main>
+      <ScrollUpBtn />
       <section className="about-me-container">
         <header>
           <h1 className="about-me-title" id="home">

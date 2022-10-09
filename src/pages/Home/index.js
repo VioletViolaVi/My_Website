@@ -1,10 +1,9 @@
-import { AboutMe, Footer, NavBar, ScrollUpBtn } from "../../components/index";
+import { AboutMe, Footer, NavBar } from "../../components/index";
 
 const Home = () => {
   return (
     <>
       <NavBar />
-      <ScrollUpBtn />
       <AboutMe />
       <Footer />
     </>

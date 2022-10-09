@@ -1,9 +1,11 @@
 import diploma from "../../assets/images/diploma.png";
+import { ScrollUpBtn } from "../index";
 import "./index.css";
 
 const Skills = () => {
   return (
     <main>
+      <ScrollUpBtn />
       <section className="skills-bg">
         <header>
           <h2 className="skills-title" id="skills">

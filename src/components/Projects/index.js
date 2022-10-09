@@ -2,7 +2,7 @@ import "./index.css";
 
 const Projects = (props) => {
   return (
-    <main>
+    <>
       <section className="projects-bg">
         <figure>
           <a href={props.customLink} target="_blank" rel="noreferrer">
@@ -23,7 +23,7 @@ const Projects = (props) => {
           <b>Technologies:</b> {props.customTechnologies}
         </p>
       </section>
-    </main>
+    </>
   );
 };
 export default Projects;
