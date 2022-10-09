@@ -8,9 +8,7 @@ const Skills = () => {
       <ScrollUpBtn />
       <section className="skills-bg">
         <header>
-          <h2 className="skills-title" id="skills">
-            My Skills
-          </h2>
+          <h1 className="skills-title">My Skills</h1>
         </header>
 
         <ul className="skill-list-bg">

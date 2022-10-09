@@ -4,19 +4,18 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-top: 5rem;
   padding: 0 0.5rem;
 }
 
 .skills-title {
   text-align: center;
   font-size: 1.7rem;
-  margin: 5rem 0 0.5rem;
+  margin: 2rem 0;
 }
 
 .skill-list-bg {
   line-height: 2.5rem;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 .skill-list {

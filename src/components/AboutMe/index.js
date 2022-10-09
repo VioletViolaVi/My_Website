@@ -8,9 +8,7 @@ const AboutMe = () => {
       <ScrollUpBtn />
       <section className="about-me-container">
         <header>
-          <h1 className="about-me-title" id="home">
-            Software Developer
-          </h1>
+          <h1 className="about-me-title">Software Developer</h1>
         </header>
 
         <p className="greeting">

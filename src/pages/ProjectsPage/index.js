@@ -27,9 +27,9 @@ const ProjectsPage = () => {
       <main>
         <ScrollUpBtn />
         <header>
-          <h2 className="projects-title" id="projects">
+          <h1 className="projects-title" id="projects">
             My Projects
-          </h2>
+          </h1>
         </header>
         {allProjects}
       </main>
