@@ -1,24 +1,36 @@
+import { NavLink } from "react-router-dom";
+
 import "./index.css";
 
 const NavBar = () => {
+  const activeLink = { color: "#f0f0f0" };
+
+  function toggleActive({ isActive }) {
+    if (isActive) {
+      return activeLink;
+    } else {
+      return undefined;
+    }
+  }
+
   return (
     <>
       <nav className="header-bg">
         <ul className="list-container">
           <li>
-            <a href="#home" className="link">
+            <NavLink className="link" to="my_website" style={toggleActive}>
               Home
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="#projects" className="link">
+            <NavLink className="link" to="projects" style={toggleActive}>
               Projects
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="#skills" className="link">
+            <NavLink className="link" to="skills" style={toggleActive}>
               Skills
-            </a>
+            </NavLink>
           </li>
         </ul>
       </nav>
