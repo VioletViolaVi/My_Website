@@ -1,3 +1,5 @@
+import "./index.css";
+
 const ScrollUpBtn = () => {
   // get btn
   let btn;

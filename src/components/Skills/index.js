@@ -1,4 +1,5 @@
 import diploma from "../../assets/images/diploma.png";
+import "./index.css";
 
 const Skills = () => {
   return (

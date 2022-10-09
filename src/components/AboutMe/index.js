@@ -1,4 +1,5 @@
 import avatar from "../../assets/images/avatar.png";
+import "./index.css";
 
 const AboutMe = () => {
   return (

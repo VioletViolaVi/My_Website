@@ -1,3 +1,5 @@
+import "./index.css";
+
 const Projects = (props) => {
   return (
     <section className="projects-bg">

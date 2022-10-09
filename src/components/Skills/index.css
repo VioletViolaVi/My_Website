@@ -1,0 +1,60 @@
+/*********************************************************** skills */
+.skills-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 5rem;
+  padding: 0 0.5rem;
+}
+
+.skills-title {
+  text-align: center;
+  font-size: 1.7rem;
+  margin: 5rem 0 0.5rem;
+}
+
+.skill-list-bg {
+  line-height: 2.5rem;
+  margin-bottom: 5rem;
+}
+
+.skill-list {
+  font-size: 1.5rem;
+}
+
+.diploma-img {
+  width: 15rem;
+  height: 21rem;
+  border: 1rem solid #20b2aa;
+}
+
+.diploma-caption {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+/*************************** media queries: skills */
+@media (min-width: 800px) {
+  .skill-list-bg {
+    line-height: 5rem;
+  }
+
+  .skills-title {
+    font-size: 2.3rem;
+  }
+
+  .skill-list {
+    font-size: 2.2rem;
+  }
+
+  .diploma-img {
+    width: 22rem;
+    height: 28rem;
+  }
+
+  .diploma-caption {
+    font-size: 2rem;
+  }
+}
