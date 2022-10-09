@@ -1,7 +1,7 @@
-const Header = () => {
+const NavBar = () => {
   return (
-    <header className="header-bg">
-      <nav>
+    <>
+      <nav className="header-bg">
         <ul className="list-container">
           <li>
             <a href="#home" className="link">
@@ -20,7 +20,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-    </header>
+    </>
   );
 };
-export default Header;
+export default NavBar;
