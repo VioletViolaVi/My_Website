@@ -1,13 +1,12 @@
-import { Footer, NavBar } from "../components";
-import { Home } from "../pages";
+import { Home, ProjectsPage, SkillsPage } from "../pages";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <NavBar />
       <Home />
-      <Footer />
+      <ProjectsPage />
+      <SkillsPage />
     </>
   );
 }

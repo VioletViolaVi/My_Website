@@ -1,14 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
-import reportWebVitals from './reportWebVitals';
-import App from './App/App';
+import reportWebVitals from "./reportWebVitals";
+import App from "./App/App";
+import { Footer, NavBar, ScrollUpBtn } from "./components";
 
 ReactDOM.render(
   <React.StrictMode>
+    <ScrollUpBtn />
+    <NavBar />
     <App />
+    <Footer />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
