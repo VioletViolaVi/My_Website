@@ -1,0 +1,21 @@
+/*********************************************************** not found */
+.page-not-found-title {
+  display: grid;
+  grid-template-columns: auto;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  height: 65.9vh;
+}
+
+.page-not-found-title h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+/*************************** media queries: not found */
+@media (min-width: 800px) {
+  .page-not-found-title h1 {
+    font-size: 2.5rem;
+  }
+}
