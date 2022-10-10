@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My_Website/static/css/main.a35534be.css",
-    "main.js": "/My_Website/static/js/main.6cb4a4c4.js",
+    "main.css": "/My_Website/static/css/main.73e925b8.css",
+    "main.js": "/My_Website/static/js/main.717e9216.js",
     "static/js/787.e5c57c47.chunk.js": "/My_Website/static/js/787.e5c57c47.chunk.js",
     "static/media/busybakes.png": "/My_Website/static/media/busybakes.c6490d75820b2a4cf8b8.png",
     "static/media/cinemagic.png": "/My_Website/static/media/cinemagic.6846c9cdc9549945c67b.png",
@@ -10,12 +10,12 @@
     "static/media/diploma.png": "/My_Website/static/media/diploma.64b763316ea65d13cb5e.png",
     "static/media/sadieszoo.png": "/My_Website/static/media/sadieszoo.69333b68412d16ffe3b4.png",
     "index.html": "/My_Website/index.html",
-    "main.a35534be.css.map": "/My_Website/static/css/main.a35534be.css.map",
-    "main.6cb4a4c4.js.map": "/My_Website/static/js/main.6cb4a4c4.js.map",
+    "main.73e925b8.css.map": "/My_Website/static/css/main.73e925b8.css.map",
+    "main.717e9216.js.map": "/My_Website/static/js/main.717e9216.js.map",
     "787.e5c57c47.chunk.js.map": "/My_Website/static/js/787.e5c57c47.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a35534be.css",
-    "static/js/main.6cb4a4c4.js"
+    "static/css/main.73e925b8.css",
+    "static/js/main.717e9216.js"
   ]
 }
