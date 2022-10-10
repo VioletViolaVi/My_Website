@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 0 0.5rem 7rem;
+  padding: 0 0.5rem 3rem;
 }
 
 .projects-title {
@@ -21,23 +21,27 @@
 }
 
 .project-img:hover {
-  border-top: 1rem solid #e0ffff;
-  border-right: 1rem solid #e0ffff;
-}
-
-.project-caption,
-.project-description {
-  margin-bottom: 0.5rem;
+  border-bottom: 1rem solid #99e6b3;
+  border-left: 1rem solid #99e6b3;
+  border-top: 1rem solid #aaf0d1;
+  border-right: 1rem solid #aaf0d1;
 }
 
 .project-caption {
   font-size: 1.5rem;
   font-weight: bold;
+  margin: 0.5rem 0;
 }
 
-.project-description,
+.project-description {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
 .project-tech {
   font-size: 1.2rem;
+  line-height: 1.5;
 }
 
 /*************************** media queries: projects */

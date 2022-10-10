@@ -20,7 +20,7 @@ const Projects = (props) => {
         <p className="project-description">{props.customDescription}</p>
 
         <p className="project-tech">
-          <b>Technologies:</b> {props.customTechnologies}
+          <b>Tech:</b> {props.customTechnologies}
         </p>
       </section>
     </>

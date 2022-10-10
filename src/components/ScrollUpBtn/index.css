@@ -5,19 +5,19 @@
   bottom: 1rem;
   right: 1rem;
   z-index: 99;
-  border: #e0ffff solid 0.3rem;
+  font-size: 1.5rem;
   outline: none;
-  background-color: #20b2aa;
-  color: #e0ffff;
   cursor: pointer;
   padding: 0.3rem 0.5rem;
-  font-size: 1.5rem;
-}
-
-#btn:hover {
   background-color: #e0ffff;
   color: #20b2aa;
   border: #20b2aa solid 0.3rem;
+}
+
+#btn:hover {
+  background-color: #20b2aa;
+  color: #e0ffff;
+  border: #008080 solid 0.3rem;
 }
 
 .fas.fa-chevron-up {
