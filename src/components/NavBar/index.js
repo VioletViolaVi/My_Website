@@ -18,7 +18,7 @@ const NavBar = () => {
       <nav className="navbar-bg">
         <ul className="list-container">
           <li>
-            <NavLink className="link" to="/my-website" style={toggleActive}>
+            <NavLink className="link" to="/My_Website" style={toggleActive}>
               Home
             </NavLink>
           </li>
