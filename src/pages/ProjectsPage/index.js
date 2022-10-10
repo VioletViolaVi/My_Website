@@ -31,7 +31,7 @@ const ProjectsPage = () => {
             My Projects
           </h1>
         </header>
-        {allProjects}
+        <div className="project-container-for-grid">{allProjects}</div>
       </main>
       <Footer />
     </>

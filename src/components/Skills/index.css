@@ -57,3 +57,11 @@
     font-size: 2rem;
   }
 }
+
+@media (min-width: 1285px) {
+  .skills-container-for-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+  }
+}

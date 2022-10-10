@@ -69,3 +69,10 @@
     font-size: 1.5rem;
   }
 }
+
+@media (min-width: 1285px) {
+  .project-container-for-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
