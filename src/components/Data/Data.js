@@ -27,5 +27,29 @@ const Data = [
     technologies:
       "HTML5, CSS3, SASS, jQuery, JavaScript, Git, Gitpod, Github, Balsamiq Wireframes",
   },
+
+  {
+    id: 3,
+    title: "Cinemagic",
+    link: "https://milestone-project-3-vivian.herokuapp.com/",
+    image: CinemagicImg,
+    alt: "Cinemagic website link",
+    description:
+      "A movie ticket booking website for users to browse and select tickets for movies wanted.",
+    technologies:
+      "HTML5, CSS3, jQuery, JavaScript, Materialize, Git, Gitpod, Github, Balsamiq Wireframes",
+  },
+
+  {
+    id: 4,
+    title: "Slurps",
+    link: "https://milestone-project-4-vivian.herokuapp.com/",
+    image: SlurpsImg,
+    alt: "Slurps website link",
+    description:
+      "An e-commerce website for users to buy milkshakes and juices online.",
+    technologies:
+      "HTML5, CSS3, jQuery, JavaScript, Bootstrap, Git, Gitpod, Github, Balsamiq Wireframes",
+  },
 ];
 export default Data;
